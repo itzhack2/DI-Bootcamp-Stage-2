@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ 
+}
+
+.container{
+
+    width: 500px;
+    /* height: 300px; */
+    display: flex;
+    
+    
+
+}
+
+#a{
+
+    background-color: rgb(134, 7, 134);
+    width: 50px;
+    height:50px;
+}
+
+#b{
+    background-color: rgb(7, 119, 134);
+    width: 100px;
+    height: 50px;
+}
+
+#c{
+    background-color: rgb(198, 59, 28);
+    width: 100px;
+    height: 50px;
+    
+    
+}

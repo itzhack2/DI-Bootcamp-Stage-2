@@ -1,0 +1,295 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; 
+    font-family:  'Roboto',sans-serif;
+}
+
+
+
+#container{
+
+    /* height: 100vh;
+    width: 100%;
+    border: 3px solid red;
+    display:flex;
+    flex-direction: column; */
+    /* margin: 5p; */
+    /* width: 100%; */
+    margin: 0;
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(222, 222, 222, 0.7),rgba(232, 229, 229, 0.7)),url(imag-6.jpg);
+    background-position: center;
+    background-size: cover ;
+    padding-left: 8% ;
+    padding-right: 8%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+
+#head{
+    position: relative;
+    height: 20%;
+    /* width: 100%; */
+    /* margin: 5px; */
+    /* border: 1px solid red; */
+    text-align: center;
+    /* align-items: center; */
+    
+}
+#logo{
+    position: absolute;
+    width: 50%;
+    margin: 20px;
+    left: 20%;
+    text-align: center;
+    align-items: center;
+
+
+}
+
+
+#NUMBER{
+
+    height: 50%;
+    /* width: 100%; */
+    margin-top: 0;
+    /* border: 1px solid red; */
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    
+
+}
+.num{
+
+    /* height: 100px; */
+    /* width: 100%; */
+    /* margin-top: 0px; */
+    /* border: 1px solid red; */
+    text-align: center;
+
+}
+
+
+
+#button{
+    /* margin: -150px; */
+    height: 100%;
+    /* width: 100%; */
+    /* width: 900px; */
+    /* margin-top: 20px; */
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-evenly;
+
+
+}
+
+
+#card-1{  
+    align-self: flex-start;
+    margin: 20px;
+    /* padding: 5px; */
+    position: relative;
+    height: 350px;
+    width: 400px;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+    border-radius: 8px;
+
+
+
+}
+
+#card-2{  
+
+    margin: 50px;
+    /* padding: 5px; */
+    position: relative;
+    height: 350px;
+    width: 400px;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+    border-radius: 8px;
+    
+
+
+    
+}
+#card-3{ 
+    align-self: center;
+    margin: 55px;    
+    /* padding: 5px; */
+    position: relative;
+    height: 350px;
+    width: 400px;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    background-color: aliceblue;
+
+
+    
+}
+.text{
+
+    height: 60%;
+    margin: 30px;
+    font-size: 16px;
+    
+
+}
+
+
+img{
+    position: absolute;
+    /* top: 10px; */
+    background-size:cover;
+    /* border: 1px solid red; */
+    /* height: 100px; */
+    /* width: 100px; */
+    border-radius: 50%;
+    align-self: center;
+
+}
+#img-1{
+
+    left: 160px;
+    top: 55%;
+    background-image: url(image-emily.jpg);
+    
+    
+}
+
+#img-2{ 
+    position: absolute;
+    top: 50%;
+    background-image: url(image-jennie.jpg);
+
+}
+
+
+#img-3{ 
+    position: absolute;
+    top: 50%;
+    background-image: url(image-thomas.jpg);
+
+}
+
+#Inpo-1{
+    
+    /* display: flex; */
+    background-color: rgb(255, 187, 0);
+    font-size: 20px;
+    width: 100%;
+    height: 40%;
+    text-align: center; 
+
+}
+#Inpo-2{
+    /* display: flex; */
+    background-color: rgb(255, 106, 0);
+    font-size: 20px;
+    text-align: center;    
+    width: 100%;
+    height: 50%;
+
+}
+#Inpo-3{
+    /* display: flex; */
+    background-color: aqua;
+    font-size: 20px;
+    text-align: center;    
+    width: 100%;
+    height: 50%;
+
+}
+
+
+.h3-card,.p-card{
+    margin: 50px;
+    
+
+    
+} 
+
+
+
+/* #model-1{
+    
+    background-image: url(image-emily.jpg);
+    background-size:cover;
+    border: 1px solid red;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    align-self: center;
+
+}
+#model-2{
+
+    background-image: url(image-jennie.jpg);
+    background-size:cover;
+    border: 1px solid red;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    align-self: center;
+}
+#model-3{
+
+    background-image: url(image-thomas.jpg);
+    background-size:cover;
+    border: 1px solid red;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    align-self: center;
+    
+} */
+/* #mid-1{
+    border: 1px solid red;
+    
+}
+#mid-2{
+
+    border: 1px solid red;
+
+}
+#mid-3{
+
+    border: 1px solid red;
+
+} */
+
+
+
+/* 
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; 
+
+}
+#conrainer{
+border: 1px solid black;
+
+}
+.card{
+
+    height: 250px ;
+    width: 150px ;
+    border: 1px solid red;
+} */
