@@ -8,53 +8,71 @@
     <title>Document</title>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Navbar</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Dropdown
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-              </li>
-            </ul>
-            <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
-          </div>
+<!-- 1. Create a structure with a container, 2 rows and 3 columns in each row. What should be the width of each column so that the 3 columns will take the whole width of the row ? -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="demo-content">.col-md-4</div>
+            </div>
+            <div class="col-md-4">
+                <div class="demo-content">.col-md-4</div>
+            </div>
+            <div class="col-md-4">
+                <div class="demo-content">.col-md-4</div>
+            </div>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="demo-content">.col-md-4</div>
+            </div>
+            <div class="col-md-4">
+                <div class="demo-content">.col-md-4</div>
+            </div>
+            <div class="col-md-4">
+                <div class="demo-content">.col-md-4</div>
+            </div>
+
         </div>
-      </nav>
+        </div>
+    </div>    
 
+<!-- 2. Create a structure with a container, 2 rows and 2 columns in each row. Use offset to make a space between the 2 columns -->
+    <div class="container">
+        <div class="row">
+            <div class="demo-content col-md-4">col-md-4</div>
+            <div class="demo-content col-md-4 offset-md-4">col-md-4 offset-md-4</div>
+        </div>  
+        <div class="row">
+            <div class="demo-content col-md-4">col-md-4</div>
+            <div class="demo-content col-md-4 offset-md-4">col-md-4 offset-md-4</div>
+    </div>    
+ 
+<!-- 3. Create a structure with 2 rows and 2 columns in each row. What happens if you don't have any container ? -->
+        <div class="demo-content col-md-4">col-md-4</div>
+        <div class="demo-content col-md-4 offset-md-4">col-md-4 offset-md-4</div>
+        </div>  
+    
+        <div class="demo-content col-md-4">col-md-4</div>
+        <div class="demo-content col-md-4 offset-md-4">col-md-4 offset-md-4</div>
+        </div>  
+ 
+    
+    
+<!-- 4. Create a structure with a container, 2 columns. What happens if you don't have any row ? -->
+    <div class="container">
+            <div class="demo-content col-md-4">col-md-4</div>
+            <div class="demo-content col-md-4 offset-md-4">col-md-4 offset-md-4</div>
+    </div>
+    
+    
+<!-- 5. Create a structure with a container, 1 row and 3 columns in the row. Make it responsive so depending of the width of the screen, the columns will be displayed differently. Write a code for 4 different type of screen. -->
+    <div class="container">
+        <div class="row">   
+            <div class=" demo-content col-sm-4">col-sm-4</div>
+            <div class="demo-content col-md-4">col-md-4</div>
+            <div class="demo-content col-lg-4">col-lg-4</div>
+        </div>
 
-
-
-
-
-
-
-
-
-
+    </div>
 
 
 
