@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+html,h1,h2,h3,h4,h5,h6,a{
+    font-family: "Raleway";
+    align-content: center;
+}
+body{
+    height:100rem ;
+}
+header{
+    /* width: 100%; */
+    height: 40rem ;
+    background-image: url(images/imag.jpg);
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+    margin: 0;
+    position: relative;
+}
+.jumbotron{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    
+}
+.featurette-divider{
+    margin-top: 0;
+    
+}
+.row-featurette{
+    position: relative;
+    align-items: center;    
+}
+
+/* .col-md-9{
+
+    position: relative;
+    top: 5rem;
+    
+} */
