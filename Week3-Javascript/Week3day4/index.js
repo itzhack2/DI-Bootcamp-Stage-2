@@ -54,26 +54,18 @@
 
 // Exercise 4: Group Chat
 
-const users = ["Lea123", "Princess45", "cat&doglovers", "helooo@000"];
+// const users = ["Lea123", "Princess45", "cat&doglovers", "helooo@000" , "luffy"];
 
-if (users.length == 0){
-    console.log( “no one is online”);
-}else if (users.length == 1){
-    console.log();
-}else if (){
-    console.log();
-}else if (){
-    console.log();
-}else {
-    console.log();
-}
-
-
-
-
-
-
-
+// if (users.length === 0){
+//     console.log( `No one is online`);
+// }else if (users.length === 1){
+//     console.log(`${users[0]} is online`);
+// }else if ( users.length === 2 ){
+//     console.log(`${users[0]} and ${users[1]} are online`);
+// }else {
+//  const remainingUsers = users.length - 2 ;
+// console.log(`${users[0]}, ${users[1]} and ${remainingUsers} more are online`);
+// }
 
 // console.log “no one is online”.
 // console.log “<name_user> is online”.
