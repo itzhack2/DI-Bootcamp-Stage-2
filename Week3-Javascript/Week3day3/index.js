@@ -1,6 +1,4 @@
-
-
-
+// ***Conditionals***
 // let userAge = prompt( 'what is your  age')
 // console.log(userAge);
 
@@ -12,8 +10,6 @@
 // }else{
 // alert(Powering on Enjoy the ride!!);
 // }
-
-
 
 
 // Exircise 1
