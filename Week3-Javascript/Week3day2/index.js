@@ -11,7 +11,7 @@ const favoriteMeal = "breakfsdt"
 console.log(  `i eat ${favoriteFood} at every ${favoriteMeal}` )
 
 
-                    // **🌟 Exercise 2 : Series
+                        // **🌟 Exercise 2 : Series
 
 // **Part I
 
@@ -68,13 +68,129 @@ A: undefined
 // console.log(3 + 4 + '5');
 P: 75 because 3,4 are number and "5" is a string  
 A: 75
-                    // Exercise 5 : Guess The Answers
+
+                     // **Exercise 5 : Guess The Answers
+typeof(15)
+// Prediction: number
+// Actual: number
+
+typeof(5.5)
+// Prediction: number
+// Actual: number
+
+typeof(NaN)
+// Prediction: i dot have one
+// Actual:'number'
+
+typeof("hello")
+// Prediction: string
+// Actual: 'string'
+
+typeof(true)
+// Prediction: i dot have one
+// Actual:'boolean'
+
+typeof(1 != 2)
+// Prediction: i dot have one
+// Actual: 'boolean'
+
+"hamburger" + "s"
+// Prediction: hamburgers
+// Actual:'hamburgers'
+
+"hamburgers" - "s"
+// Prediction: i dot have one
+// Actual: NaN
+
+"1" + "3"
+// Prediction: '4'
+// Actual: '13'
+
+"1" - "3"
+// Prediction: 2
+// Actual: -2
+
+"johnny" + 5
+// Prediction: johnny5
+// Actual: johnny5
+
+"johnny" - 5
+// Prediction: undefined
+// Actual: NaN
 
 
+99 * "hello"
+// Prediction: hello*99
+// Actual: NaN
+
+1 != 1
+// Prediction: 1
+// Actual: false
+
+1 == "1"
+// Prediction: true
+// Actual: true
+
+1 === "1"
+// Prediction: false 1 is number and "1" is a string
+// Actual: false
 
 
+                    //** */ Exercise 6 : Guess The Answers
 
 
+5 + "34"
+// Prediction: 534
+// Actual: 534
 
+5 - "4"
+// Prediction:  i dot have one
+// Actual: -1
 
-                    // Exercise 6 : Guess The Answers
+10 % 5
+// Prediction:  i dot have one
+// Actual: 0
+
+5 % 10
+// Prediction: i dot have one
+// Actual: 5 
+
+"Java" + "Script"
+// Prediction: 'string'+'string' = "stringstring"
+// Actual: 'JavaScript'
+
+" " + " "
+// Prediction: i dot have one
+// Actual: '  '
+
+" " + 0
+// Prediction: i dot have one
+// Actual: '0'
+
+true + true
+// Prediction: i dot have one
+// Actual: 2
+
+true + false
+// Prediction: i dot have one
+// Actual:1
+
+false + true
+// Prediction: i dot have one
+// Actual: 1
+
+false - true
+// Prediction: i dot have one
+// Actual: -1
+
+!true
+// Prediction:  i dot have one
+// Actual: false
+
+3 - 4
+// Prediction: 3-4 = -1 
+// Actual: -1
+
+"Bob" - "bill"
+// Prediction: undefined
+// Actual: NaN
