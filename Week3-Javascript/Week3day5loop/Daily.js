@@ -11,3 +11,5 @@ for (let i = 0;i < maxNumber;i++){
     console.log(Stars)
 }
 
+Input 'The Quick Brown Fox'
+

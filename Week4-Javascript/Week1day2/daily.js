@@ -1,15 +1,91 @@
 //***----------Daily Challenge: Words In The Stars---------
 
 
-Prompt the user for several words (separated by commas).
+// Prompt the user for several words (separated by commas)
+const answer = prompt("Type a few words separated by commas"); 
+// Put the words into an array.
+const words = answer.split(",")
 
-Put the words into an array.
+const LengthOfLongesWord = getLengthOfLongesWord();
+displayRows(words,LengthOfLongesWord);
+function displayRows (words,LengthOfLongesWord){
+const delimiterRow = createDelimiterRow();
+console.log(delimiterRow);
+for ( const word of word ){
+displayWordWithStars(word , LengthOfLongesWord );
+    }
+    console.log(delimiterRow);
+}
 
-Console.log the words one per line, in a rectangular frame as seen below.
 
-Check out the Hints and Requirements below.
 
-For example, if the user gives you:
-Hello, World, in, a, frame
-you will transform it to : ["Hello", "World", "in", "a", "frame"]
-that will get displayed as: 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// displayRows()
+
+// function displayRows(){
+// const firstRow = createFirstRow () ;
+// const numberOfStarsOnFirsrRow = LengthOfLongesWord + 4; //6
+// }
+// console.log("firstRow", firstRow);
+
+
+// // function log (word) {
+// // console.log(word);
+// // }
+// // words.forEach(log);
+ 
+// function getLengthOfLongesWord(){
+//     let LengthOfLongesWord = 0 ;
+//         for (const word of words){
+//         const wordLength = word.length; //3
+//         if (wordLength > LengthOfLongesWord ){
+//         LengthOfLongesWord = wordLength ; 
+//         }
+//     }
+//     return LengthOfLongesWord ;
+// }
+// function createFirstRow(){
+//     let row = "";
+//     for (let i = 0;i < numberOfStarsOnFirsrRow; i++){
+//         row = row + "*" ;
+//     }
+// return row;
+// }
+// const firstRow = createFirstRow () ;
+
+
+
