@@ -2,20 +2,20 @@
 
 
 // Prompt the user for several words (separated by commas)
-const answer = prompt("Type a few words separated by commas"); 
+// const answer = prompt("Type a few words separated by commas"); 
 // Put the words into an array.
-const words = answer.split(",")
+// const words = answer.split(",")
 
-const LengthOfLongesWord = getLengthOfLongesWord();
-displayRows(words,LengthOfLongesWord);
-function displayRows (words,LengthOfLongesWord){
-const delimiterRow = createDelimiterRow();
-console.log(delimiterRow);
-for ( const word of word ){
-displayWordWithStars(word , LengthOfLongesWord );
-    }
-    console.log(delimiterRow);
-}
+// const LengthOfLongesWord = getLengthOfLongesWord();
+// displayRows(words,LengthOfLongesWord);
+// function displayRows (words,LengthOfLongesWord){
+// const delimiterRow = createDelimiterRow();
+// console.log(delimiterRow);
+// for ( const word of word ){
+// displayWordWithStars(word , LengthOfLongesWord );
+//     }
+//     console.log(delimiterRow);
+// }
 
 
 
