@@ -197,39 +197,52 @@ function includesNumbers(str){
  const regex = new Regexp(/\d/)
  return regex.test(str)
 }
-planeRideCost()
+
+const price = planeRideCost()
+console.log('price:', price )
+
 function planeRideCost() {
-let destination
-while(destination == null || destination == "" || includesNumbers (destination)){
+let destination = ""
+
+while(destination == "" || includesNumbers (destination)){
 destination =prompt("where are you going")
 
 }
-console.log( "your destination is", destination);
+
+if (destination === "London") return 183
+if (destination === "paris") return 220
+return 300
+}
+
+rentalcarCost()
+function rentalcarCost() {
+ let answer = 
+
+while ( !isOnlyNumbers (answer)){
+ answer = prompt (" how many day would you like to rent the car?")
+ }     
+ const daliyPrice = 40 
+ const numberOfdays = Number (anser)
+
+ let discount= 0 
+ if (numberOfdays => 10 ) discount = 0.05 
+
+ const totalPrice = daliyPrice * numberOfdays * (1 - discount)
+ console.log('totalPrice:', totalPrice)
+ return totalPrice
+}
 
 
+function totalVacationCost(){
+const carPrice = rentalcarCost ()
+const hotelPrice = hotelCost ()
+const planePrice = planeRideCost ()
 
+console.log('carPrice:' ,carPrice)
+console.log('hotelPrice:' ,hotelPrice )
+console.log('planePrice:' ,planePrice)
 
-
-
-// 2. Define a function called planeRideCost().
-// *It should ask the user for their destination.
-// *If the user doesn’t answer or if the answer is not a string, ask again.
-// *The function should return a different price depending on the location.
-// **“London”: 183$
-// **“Paris” : 220$
-// **All other destination : 300$
-
-// 3. Define a function called rentalCarCost().
-// *It should ask the user for the number of days they would like to rent the car.
-// *If the user doesn’t answer or if the answer is not a number, ask again.
-// *Calculate the cost to rent the car. The car costs $40 everyday.
-// **If the user rents a car for more than 10 days, they get a 5% discount.
-// *The function should return the total price of the car rental.
-
-// 4. Define a function called totalVacationCost() that returns the total cost of the user’s vacation by calling the 3 functions that you created above.
-// Example : The car cost: $x, the hotel cost: $y, the plane tickets cost: $z.
-// Hint: You have to call the functions hotelCost(), planeRideCost() and rentalCarCost() inside the function totalVacationCost().
-
-// 5. Call the function totalVacationCost()
-
-// 6. Bonus: Instead of using a prompt inside the 3 first functions, only use a prompt inside the totalVacationCost() function. You need to change the 3 first functions, accordingly.
+const totalPrice = carPrice + hotelPrice + planePrice
+console.log("totalPrice:",totalPrice)
+}
+totalVacationCost()
