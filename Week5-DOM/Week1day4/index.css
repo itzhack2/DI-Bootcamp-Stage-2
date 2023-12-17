@@ -1,0 +1,22 @@
+.red{
+background-color: red;
+}
+.hide{
+    display: none;
+}
+.bold{
+    font-size: 700;
+}
+.fadeout{
+    animation: fadeout 1s;
+    animation-fill-mode: forwards;
+
+}
+@keyframes fadout{
+    0% {
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
