@@ -7,3 +7,4 @@ for (let element of color){
     console.log(element);
     element.addEventListener("click",getColor)
 }
+    

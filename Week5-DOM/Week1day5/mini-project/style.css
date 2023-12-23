@@ -7,7 +7,7 @@ body{
     height: 100%; 
 }
 #container{
-    /* padding: 5px; */
+    padding: 5px;
     height: 100vh;
     display:flex;
     background-color: darkgray;
@@ -22,7 +22,7 @@ body{
     height: 100%;
     width: 15%;
     float: left;
-    /* background-color: darkgrey; */
+    background-color: darkgrey;
     margin:1px;
     
 }
@@ -35,9 +35,9 @@ body{
 }
 button{
     margin-top: 0px;
-    padding: 10px;
+    padding: .5px;
     border-radius: 10px;
-    height: 80%;
+    height: 100%;
     width: 100%;
 }
 #sidebar  button {
@@ -47,13 +47,13 @@ button{
 display: grid; 
 grid-gap: 1px;
 padding: 5px;
-/* grid-template-rows: repeat(24,1fr); */
+grid-template-rows: repeat(24,1fr);
 grid-template-columns: repeat(60, 1fr);
 width: 100%;
 background-color: darkgrey;
 }
 
 #main>*{
-    border: 1px lightgrey solid;
+    border: .5px lightgrey solid;
     background-color: white;
 }

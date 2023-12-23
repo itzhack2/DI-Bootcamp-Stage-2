@@ -1,0 +1,10 @@
+#target{
+    display: grid;
+    place-items: center ;
+}
+#traget.is-hovered{
+    border: 4px dotted black;
+}
+#box{
+    cursor: move;
+}
