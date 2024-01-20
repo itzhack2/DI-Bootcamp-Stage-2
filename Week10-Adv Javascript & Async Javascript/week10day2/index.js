@@ -113,9 +113,24 @@
 // console.log(object4.number)
 
 
-// 1.Create a class Animal with the attributes name, type and color. The type is the animal type, for example: dog, cat, dolphin ect …
+//  1.Create a class Animal with the attributes name, type and color. The type is the animal type, for example: dog, cat, dolphin ect …
+//  class Animal {
+//   constructor(name,type,color){
+//       this.name = name;
+//       this.type = type;
+//       this.color = color;
+//   }
+//  }
+//  class Mammal extends Animal{
+//    cry = " oink oink"
+//    constructor(name,color){
+//      super((name,"Mammal",color))
+//    }
 
-// 2.Create a class Mamal that extends from the Animal class. Inside the class, add a method called sound(). This method takes a parameter: the sound the animal makes, and returns the details of the animal (name, type and color) as well as the sound it makes.
+//    sound(cry){
+//      return `This animal is a ${this.type}. Its name is ${this.name}, its color is ${this.color} and the sound it make is ${cry}`;
 
-// 3.Create a farmerCow object that is an instance of the class Mamal. The object accepts a name, a type and a color and calls the sound method that “moos” her information.
-// For example: Moooo I'm a cow, named Lily and I'm brown and white
+//    }
+//  }
+// const farmerCow = new Mammal("ben", "white");
+// console.log("farmerCow:", farmerCow );
