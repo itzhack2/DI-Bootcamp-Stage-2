@@ -1,0 +1,39 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f3f3f3;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: solid yellow 2px;
+}
+h1{
+    font-family: 'SEGA LOGO FONT', sans-serif;
+}
+
+button {
+    margin: 0;
+    height: 40px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: solid yellow 2px;
+    border-radius: 10px;
+}
+
+#characterInfo {
+    margin-top: 20px;
+}
+
+#loading, #error {
+    margin-top: 20px;
+}
