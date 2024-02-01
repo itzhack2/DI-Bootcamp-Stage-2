@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -11,17 +11,43 @@
     <div class="container">
         <h1>Star Wars</h1>
         <button id="fetchData">Find Someone</button>
-        <div id="characterInfo">
+        <div id="characterInfo"> -->
             <!-- Display character information here -->
-        </div>
+        <!-- </div>
         <div id="loading" style="display: none;">
             <i class="fas fa-spinner fa-spin"></i> Loading...
         </div>
         <div id="error" style="display: none; color: red;">
-            <i class="fas fa-exclamation-circle"></i> Error fetching data. Please try again.
+            <i class="fas fa-exclamation-circle"></i> Oh No! That person isnt availabe.
         </div>
     </div>
+<script src="https://kit.fontawesome.com/ce2e9fec54.js" crossorigin="anonymous"></script>
+<script src="script.js"></script>
+</body>
+<!-- </html> -->
 
-    <script src="script.js"></script>
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Star Wars Web App</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</head>
+<body>
+   
+	<div class="wrapper">
+        <h1>Star-war</h1>
+		<div class="info-container">
+			<h1 id="name"></h1>
+			<p id="height"></p>
+			<p id="gender"></p>
+			<p id="birth-year"></p>
+			<p id="home-world"></p>
+		</div>
+		<button type="button" id="button" name="button">Find Someone</button>
+	</div>
+<script type="text/javascript" src="script.js"></script>
+
 </body>
 </html>
