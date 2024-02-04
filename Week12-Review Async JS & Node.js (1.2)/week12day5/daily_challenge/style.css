@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+}
+body{ 
+    font-family: Arial, sans-serif; 
+    text-align: center;
+    margin: 0;
+    padding:  0;
+}
+
+.container{
+height:100vh;
+background-color: darkgray;
+display: grid;
+place-items: center;
+
+}
+
+.converter{
+    border: 1px solid black;
+    border-radius: 2rem;
+    box-shadow: 0 0 10px 10px rgb(28,28,28);
+    padding: 2rem 5rem;
+    text-align: center;
+}
+select, input {
+  padding: 8px;
+  margin: 5px;
+  width: 150px;
+}
+button {
+padding: 10px;
+margin: 10px;
+cursor: pointer;
+}
+#result {
+font-size: 18px;
+margin-top: 20px;
+}
