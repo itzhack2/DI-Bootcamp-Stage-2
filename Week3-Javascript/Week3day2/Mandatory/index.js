@@ -1,15 +1,11 @@
                 // **🌟 Exercise 1: Your Favorite Food
-
 // Store your favorite food into a variable.
 const favoriteFood = "apples"
 
 // Store your favorite meal of the day into a variable (ie. breakfast, lunch or dinner)
 const favoriteMeal = "breakfsdt"
-
 // Console.log I eat <favorite food> at every <favorite meal>
-
-console.log(  `i eat ${favoriteFood} at every ${favoriteMeal}` )
-
+console.log( `i eat ${favoriteFood} at every ${favoriteMeal}` )
 
                         // **🌟 Exercise 2 : Series
 

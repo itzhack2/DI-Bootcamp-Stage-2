@@ -1,46 +1,5 @@
-// document.addEventListener('DOMContentLoaded', function () {
-//     const fetchDataButton = document.getElementById('fetchData');
-//     const characterInfoContainer = document.getElementById('characterInfo');
-//     const loadingMessage = document.getElementById('loading');
-//     const errorMessage = document.getElementById('error');
-
-//     fetchDataButton.addEventListener('click', fetchRandomCharacter);
-
-//     function fetchRandomCharacter() {
-//         loadingMessage.style.display = 'block';
-//         errorMessage.style.display = 'none';
-//         characterInfoContainer.innerHTML = ''; // Clear previous character info
-
-//         // Make AJAX request to SWAPI
-//         const apiUrl = 'https://www.swapi.tech/api/people/';
-//         const randomCharacterId = Math.floor(Math.random() * 83) + 1;
-
-//         fetch(apiUrl + randomCharacterId)
-//             .then(response => response.json())
-//             .then(data => {
-//                 loadingMessage.style.display = 'none';
-//                 displayCharacterInfo(data.result.properties);
-//             })
-//             .catch(error => {
-//                 loadingMessage.style.display = 'none';
-//                 errorMessage.style.display = 'block';
-//             });
-//     }
-
-//     function displayCharacterInfo(character) {
-//         const infoHTML = `
-//             <h2>${character.name}</h2>
-//             <p>Height: ${character.height} cm</p>
-//             <p>Gender: ${character.gender}</p>
-//             <p>Birth Year: ${character.birth_year}</p>
-//             <p>Home World: ${character.homeworld}</p>
-//         `;
-//         characterInfoContainer.innerHTML = infoHTML;
-//     }
-// });
 let xhr = new XMLHttpRequest();
 
-//Select elements in DOM
 let button = document.querySelector('#button');
 let names = document.querySelector('#name');
 let height = document.querySelector('#height');
@@ -48,21 +7,16 @@ let gender = document.querySelector('#gender');
 let birthYear = document.querySelector('#birth-year');
 let homeWorld = document.querySelector('#home-world');
 
-//Get the info from API and catch for Errors
 function getInfo (){
-  //Call Loading Data
  	updateWithLoading();
-  //Get Random people in the API between 1 and 88
  	let randomNumber = Math.floor((Math.random() * 88) + 1);
    let apiUrl = 'https://swapi.dev/api/people/' + randomNumber + '/';
-   
-  // ajax
   xhr.open('GET', apiUrl);
   xhr.responseType = 'json';
   xhr.send();
   xhr.onload = function(){
     if(xhr.status != 200){
-      //console.log(`Error: ${xhr.status}: ${xht.statusText}`);
+
       updateInfoWithError();
       console.log('there was an error');
     }
@@ -76,7 +30,6 @@ function getInfo (){
   };
  }
 
- //Display info on screen
  function updateInfo(resp){
    
   // ajax
@@ -105,18 +58,17 @@ function getInfo (){
   height.innerText = `Height: ${resp.height}`;
   gender.innerText = `Gender: ${resp.gender}`;
   birthYear.innerText = `Birth Year: ${resp.birth_year}`;
-  // homeWorld.innerText = `Home World: ${planet}`;
+
 }
 
 
-//Display Home World
+
 function updateInfo2(re){
- 	// console.log(re.name)
- 	// return re.name;
+
  	homeWorld.innerText = `Home World: ${re.name}`;
 }
 
-//Display when Error
+
 function updateInfoWithError(){
   names.innerText = 'Oh No! That person isnt available.';
   height.innerText = ''
@@ -125,9 +77,9 @@ function updateInfoWithError(){
   homeWorld.innerText = ''
 }
 
-//Display when updating info (pending data)
+
 function updateWithLoading(){
-  //Icon link: https://fontawesome.com/how-to-use/on-the-web/styling/animating-icons
+  
   names.innerHTML = '<i class="fa fa-spinner fa-pulse fa-3x fa-fw"></i> <p>Loading...</p>';
   height.innerText = ''
   gender.innerText = ''
