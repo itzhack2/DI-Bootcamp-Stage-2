@@ -1,4 +1,6 @@
 const express = require ("express")
+const {products} = require ("./config/db.js")
+const products_router = require('./routes/products.router')
 
 const app = express();
 
