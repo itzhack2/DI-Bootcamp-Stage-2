@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Quote Generator</title>
+</head>
+<body>
+  <div id="warpdiv">
+    <div id="container-button">
+      <button id="generate-btn">Generate Quote</button>
+    </div>
+    <section id="quote-section">
+      <p id="quote-display"></p>
+    </section>
+
+    <form id="add-quote-form">
+  
+      <label for="author-input">Author:</label>
+      <input type="text" id="author-input" required>
+
+      <label for="quote-input">Quote:</label>
+      <input type="text" id="quote-input" required>
+
+      <button type="button" id="add-quote-btn">Add Quote</button>
+    </form> 
+    
+    <div id="additional-buttons">
+      <button id="char-count-including-spaces-btn">Char Count (Including Spaces)</button>
+      <button id="char-count-excluding-spaces-btn">Char Count (Excluding Spaces)</button>
+      <button id="word-count-btn">Word Count</button>
+      <button id="like-btn">Like</button>
+    </div>
+
+    <form id="filter-form">
+      <label for="author-filter">Filter by Author:</label>
+      <input type="text" id="author-filter">
+      <button type="button" id="filter-btn">Filter Quotes</button>
+      <button type="button" id="next-btn">Next</button>
+      <button type="button" id="prev-btn">Previous</button>
+    </form>
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>
